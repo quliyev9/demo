@@ -1,13 +1,81 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
-a {
-  color: orange;
+#demo {
+  padding: 90px 0;
+}
+#demo .minibox {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  background-color: #349dda;
+  color: white;
+}
+#demo .wid {
+  position: absolute;
+  top: 300px;
+  left: 240px;
 }
 
-a:hover {
-  color: black;
+#demo2 {
+  padding: 90px 0;
 }
-/*# sourceMappingURL=style.css.map */
+#demo2 .minibox {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  background-color: #1e9a75;
+  color: white;
+}
+#demo2 .big {
+  position: absolute;
+  top: 710px;
+  left: 250px;
+}
+#demo2 .wid {
+  position: absolute;
+  top: 818px;
+  left: 250px;
+}
+
+#red .box {
+  padding: 90px 0;
+}
+#red .box .minibox {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  background-color: #d382df;
+  color: white;
+}
+#red .box .txtbox h1 {
+  width: 10px;
+  height: 100px;
+}
+#red .wid {
+  position: absolute;
+  top: 1890px;
+  left: 1170px;
+}
+
+#txt {
+  padding: 90px 0;
+}
+#txt .minibox {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  background-color: #d382df;
+  color: white;
+}
+#txt .wid {
+  position: absolute;
+  top: 1490px;
+  left: 370px;
+}/*# sourceMappingURL=style.css.map */
